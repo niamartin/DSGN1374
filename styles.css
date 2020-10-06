@@ -1,14 +1,60 @@
-* {
-  box-sizing: border-box;
+h1 {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #221f1f;
+    padding: 15px;
+    border-style: dotted;
+    color: white;
+    font-size: xxx-large;
+    font-family: 'Cinzel Decorative', cursive;
 }
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Shadows Into Light Two', cursive;
+  letter-spacing: 2px;
+}
+
+h3 {
+  background-color: #f6dde0;
+    padding: 10px;
+    border: 2px dotted black;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 5px;
+    color: black;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
 body {
   font-size: 16px;
   font-weight: normal;
   line-height: 1.3;
   max-width: 100%;
   margin: 0;
-  padding: 0.5em;
-  background: lightgrey;
+  background: white;
   color: black;
-  font-family: helvetica, arial, roboto, sans-serif;
+  font-family: palatino, sans-serif;
+  padding: 2.3em
+}
+
+table {
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1.8px solid black;
+  padding: 8px;
+  background-color: #fdfbff;
+}
+
+.tabletext {
+  font-size: 13.5px
+  font-weight 400;
+  font-family: 'Exo 2', sans-serif;
+}
+.link-font {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 16px
 }
