@@ -1,0 +1,219 @@
+
+
+body {
+	background-color: #faf6f2;
+	font-family: sans-serif;
+    font-size: 5em;
+	}
+
+h1	{
+	display: block;
+    font-family: 'Staatliches', cursive;
+    position: relative;
+    color: #ddfff7;
+    text-align: right;
+    width: 330px;
+    left: 0.1em;
+    top: -.6em;
+	}
+p{
+	display: block;
+}
+
+.typo {
+		letter-spacing: 20px;
+        color: #0d1b46
+	  }
+
+.g {
+    transform: rotateZ(24deg);
+    position: absolute;
+    top: 17px;
+    left: 3.8in;
+    color: #0d1b46
+	}
+
+.r {
+    transform: rotateZ(35deg);
+    position: absolute;
+    left: 4.8in;
+    top: 60px;
+    color: #0d1b46
+	}
+
+.a 
+	{
+
+    transform: rotateZ(60deg);
+    position: absolute;
+    top: 1.4in;
+    left: 5.9in;
+    color: #0d1b46;
+	}
+
+.p {
+
+    transform: rotateZ(72deg);
+    position: absolute;
+    top: 2.45in;
+    left: 3.8em;
+    color: #ffa69e;
+    color: #0d1b46;
+	}
+
+.hy {
+    font-family: 'Staatliches', cursive;
+    color: #ffa69e;
+    writing-mode: vertical-rl;
+    position: relative;
+    left: 4.6in;
+    top: 2.1in;
+    letter-spacing: 35px;
+    color: #0d1b46;
+	}
+
+.q1 {
+    width: 8em;
+    transform: rotateZ(-90deg);
+    position: absolute;
+    top: 5em;
+    font-family: 'Fredericka the Great', cursive;
+    color: #65bcbf;
+    left: .3in;
+    font-size: 35pt;
+}
+.name1 {
+    position: absolute;
+    top: 7.5em;
+    left: 1em;
+    font-size: 58pt;
+    font-family: 'Staatliches', cursive;
+    -webkit-text-fill-color: #6c5b7b;
+    text-shadow: 0px 8px 2px #282828;
+}
+.q2 {
+    position: absolute;
+    font-size: 46pt;
+    right: 12em;
+    bottom: -8in;
+    color: #65bcbf;
+    font-family: 'Fredericka the Great';
+    width: 2em;
+}
+.name2 {
+    position: absolute;
+    left: 4.1em;
+    bottom: -8.7em;
+    font-family: 'Staatliches', cursive;
+    -webkit-text-fill-color: #6c5b7b;
+    text-shadow: 0px 8px 2px #282828;
+    letter-spacing: 6pt;
+}
+
+.q3 {
+    width: 8em;
+    position: absolute;
+    top: 9.5em;
+    left: 12em;
+    font-size: 47pt;
+    color: #65bcbf;
+    font-family: 'Fredericka the Great', cursive;
+}
+.ex {
+    position: absolute;
+    top: 3em;
+    left: .1em;
+    font-family: 'Rock Salt', cursive;
+    font-size: 166pt;
+    color: #9C27B0;
+}
+
+.ex2 {
+    position: absolute;
+    top: 2.9em;
+    font-family: 'Rock Salt', cursive;
+    font-size: 166pt;
+    -webkit-text-stroke: 6px #673AB7;
+    -webkit-text-fill-color: #72357d91;
+    filter: blur(4px);
+}
+
+.name3{
+
+    position: fixed;
+    right: -3em;
+    top: 6.3em;
+    transform: rotate(-90deg);
+    color: #6c5b7b;
+    font-family: 'Staatliches', cursive; 
+
+}
+
+
+.q4{
+    font-size: 22pt;
+    width: 5em;
+    position: fixed;
+    top: 9em;
+    left: 46.7em;
+    color: #0d1b46;
+    font-family: 'Rock Salt', cursive;
+}
+.f {
+    top: .1em;
+    display: block;
+    position: absolute;
+    font-size: 16em;
+    left: -.6in;
+    color: #c06c851f;
+    font-family: 'Staatliches', cursive;
+}
+.o {
+    top: .1em;
+    display: block;
+    position: absolute;
+    font-size: 16em;
+    left: 3.1in;
+    color: #c06c851f;
+    font-family: 'Staatliches', cursive;
+}
+.n {
+    top: .1em;
+    display: block;
+    position: absolute;
+    font-size: 16em;
+    left: 7.85in;
+    color: #c06c851f;
+    font-family: 'Staatliches', cursive;
+}
+
+.t {
+    top: .1em;
+    display: block;
+    position: absolute;
+    font-size: 16em;
+    left: 13in;
+    color: #c06c851f;
+    font-family: 'Staatliches', cursive;
+}
+
+/* font-family: 'Fredericka the Great', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Staatliches', cursive; 
+
+color: #0d1b46;
+color: #65bcbf;
+color: #ece3e2;
+color: #f8777d;
+
+    position: relative;
+    font-size: 46pt;
+    right: -15em;
+    bottom: -6in;
+    color: #f8777d;
+    font-family: 'Fredericka the Great';
+    width: 2em;
+
+
+*/
+
