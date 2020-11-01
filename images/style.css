@@ -20,6 +20,14 @@ img {
 
 h2 {
 	font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    /* top: 3em; */
+    position: absolute;
+    top: 6em;
+    background: #00000057;
+    color: white;
+    width: 300px;
+    left: 1em;
 }
 h3 {
 	font-family: 'Abril Fatface', cursive;
@@ -34,14 +42,14 @@ p {
 }
 h1 {
 	font-family: 'Parisienne', cursive;
+    display: flex;
+    /* top: 3em; */
     position: absolute;
-    left: 4.45in;
-    font-size: 4.8em;
-    top: 0em;
+    top: 0in;
     color: white;
-    padding: -5em;
-    max-width: 350px;
-    text-align: end;
+    /* width: 327px; */
+    left: 4in;
+    font-size: 6em;
 }
 hr.solid {
   border-top: 3px solid #000;
@@ -51,7 +59,7 @@ title_view is the header parent: it encapsulates
 the quote, title, and header image  
   */
 .title_view {
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
 	height: 500px;
@@ -65,13 +73,14 @@ the quote, title, and header image
 
 .quote {
   	position: relative;
-    margin: 20px;
-    width:50%;
+    /*margin: 20px;*/
+    /*width:50%;*/
+    height: auto;
     /*max-width: 270px;*/
-    padding: 16px;
+    /*padding: 16px;*/
     background-color: #ffffffa6;*/
     color: black;
-    top: 2.3em;
+    /*top: 2.3em;*/
 }
 
 .cover {
