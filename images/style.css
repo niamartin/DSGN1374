@@ -1,0 +1,114 @@
+/* Images */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+}
+
+img {  
+	 max-width: 100%
+}
+
+h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+h3 {
+	font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 58px;
+    letter-spacing: 7px;
+    margin: 0;
+}
+p {
+	font-family: 'Vollkorn SC', serif;
+	text-align: center;
+}
+h1 {
+	font-family: 'Parisienne', cursive;
+    position: absolute;
+    left: 4.45in;
+    font-size: 4.8em;
+    top: 0em;
+    color: white;
+    padding: -5em;
+    max-width: 350px;
+    text-align: end;
+}
+hr.solid {
+  border-top: 3px solid #000;
+  }
+  /*
+title_view is the header parent: it encapsulates 
+the quote, title, and header image  
+  */
+.title_view {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 500px;
+	width: 100%;
+	background-image: url("img/cover.jpg");
+}
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.quote {
+  	position: relative;
+    margin: 20px;
+    width:50%;
+    /*max-width: 270px;*/
+    padding: 16px;
+    background-color: #ffffffa6;*/
+    color: black;
+    top: 2.3em;
+}
+
+.cover {
+	padding: .25em;
+	filter: blur(2px);
+}
+
+.brazil {
+	width: 33.33%;
+	padding: .25em;
+}
+.brazil2 {
+	width: 33.33%;
+	padding: .25em;
+}
+.brazil3 {
+	width: 33.33%;
+	padding: .25em;
+}
+.greyscale {
+	filter: grayscale(100%);
+}
+
+.city_grid_element {
+	width: 33.33%;
+	padding: .25em;
+}
+.city {
+	color: #000;
+}
+.blur{
+	filter: blur(2px);
+	filter:grayscale(100%);
+}
+
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Vollkorn SC', serif; */
+
