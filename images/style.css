@@ -4,7 +4,6 @@
 main {
 	margin-left: 20px;
 	margin-right: 20px;
-	background-color: #e7e7e7;
 }
 
 body {
@@ -15,7 +14,7 @@ body {
 	line-height: 1.4;
 	font-size: 16px;
 	margin: 0.25em;
-	background-color: #cad6e3;
+	background-color: #eeeeee;
 	
 }
 
@@ -51,31 +50,35 @@ h3 {
     text-align: center;
     font-size: 7.3vw;
     margin: -3px;
+    color: #3C557E;
+
 }
-.photo {
+hr.solid {
+  border-top: .5px dotted #000;
+}
+
+.cover {
 	width: 100%;
 	padding: .25em;
-	filter: blur(2px);
+	filter: blur(1.3px);
 }
 
 .grid {
 	display: flex;
 	flex-wrap: wrap;
+	border: .2px solid black;
 }
 .brazil {
 	width: 50.3%;
 	margin: 1vw;
-	border: black .5px dotted;
 }
 .brazil2 {
 	width: 44.75%;
 	margin: 1vw;
-	border: black .5px dotted;
 }
 
 .brazil3 {
 	margin: 1vw;
-	border: black .5px dotted;
 }
 
 
@@ -122,36 +125,31 @@ h3 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align:center;
 	font-size: 1.6vw;
+	padding: .1vw;
 }
 
 .iceland {
 	width: 30.75%;
 	margin: 1vw;
-	border: black .5px dotted;
 }
 .iceland2 {
 	width: 30.75%;
 	margin: 1vw;
-	border: black .5px dotted;
 }
 .iceland3 {
 	width: 30.75%;
 	margin: 1vw;
-	border: black .5px dotted;
 }
 .iceland4 {
 	margin: 1vw;
-	border: black .5px dotted;
 }
 .iceland5 {
 	width: 47.45%;
 	margin: 1vw;
-	border: black .5px dotted;
 }
 .iceland6 {
 	width: 47.45%;
 	margin: 1vw;
-	border: black .5px dotted;
 }
 
 .city4 {
@@ -161,7 +159,7 @@ h3 {
 	padding: .8vw;
 	background-color: #928275cc;
 	position: absolute;
-   top: 184.5vw;
+   top: 186vw;
     left: 1vw;
 	color: black;
 }
@@ -172,8 +170,8 @@ h3 {
     padding: .8vw;
     background-color: #aed9e89e;
     position: absolute;
-    top: 191vw;
-    left: 50vw;
+    top: 189vw;
+    left: 33vw;
     color: black;
 }
 .city6 {
@@ -183,8 +181,8 @@ h3 {
 	padding: .8vw;
 	background-color: #958583a6;
 	position: absolute;
-	top: 184vw;
-    right: 3.5vw;
+	top: 187vw;
+    right: 2.5vw;
 	color: black;
 }
 .city7 {
@@ -205,7 +203,7 @@ h3 {
 	padding: .8vw;
 	background-color: #c9a4b9c2;
 	position: absolute;
-	top: 284vw;
+	top: 294vw;
     left: 2vw;
 	color: black;
 }
@@ -218,7 +216,7 @@ h3 {
 	position: absolute;
     right: 2vw;
     color: white;
-    top: 284vw;
+    top: 294vw;
 }
 
 /*font-family: 'Abril Fatface', cursive;
