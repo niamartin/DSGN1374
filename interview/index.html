@@ -1,7 +1,168 @@
 <!DOCTYPE html>
 <head>
-	<title>A website is never finished</title>
+	<title>Interview</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css2?family=B612+Mono:wght@700&family=Josefin+Slab&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-	<p>Please check back later.</p>
+	<main>
+		<img src="img/mic.jpg" alt="boom mic" class="mic">
+
+		<h1> 
+		What do Websites and Web Design mean to the everyday user? </h1>
+			
+		<h2> "< head/> and < body/> doesn't make sense unless we have a .class" or "intuitive design is how we give the user new superpowers" </h2>
+
+<div class="navbar">
+  <a href="#" onclick="history.go(-1)"> Home </a>
+  <a href="new_page.html" class="fullinter"> Full Interview </a>
+  </div>
+</div>
+
+<!-- <div class="grid"> -->
+<p class="quest"> Q.1 </p>
+	<button class="accordion"> <div class="q">How often do you use the web? </div> </button>
+	<div class="panel">
+	<p class="g">
+				M: Daily 
+				<br>
+				<br>
+				L: Depends, anywhere between 1hr - 1.5 a day
+			</p>
+
+</div>
+ 			
+<!-- </div> -->
+
+
+
+
+
+<p class="quest"> Q.2 </p>
+<button class="accordion"> <div class="q"> What do you use the web for? </div> </button>
+<div class="panel">
+	
+ 	<p class="g">
+				M: Research or social media 
+				<br>
+				<br>
+				L: Research or to learn something new
+			</p>
+</div>
+
+
+
+
+<p class="quest"> Q.3 </p>
+
+<button class="accordion"> <div class="q"> What is the first thing that you notice when you look at a website? </div> </button>
+<div class="panel">
+	
+ 	<p class="g">
+				M: Pictures - although depending on the content or the website they can be distracting and draw my attention away from what I mean to look at!
+				<br>
+				<br>
+				L: Photos - I like them on certain websites! If used correctly they can explain hard information in a visual way. For me this is ideal when looking at research or science information.
+			</p>
+</div>
+
+
+
+<p class="quest" > Q.4 </p>
+<button class="accordion"> <div class="q"> What do you like about websites? </div> </button>
+<div class="panel">
+	
+ 	<p class="g">
+				M: Buttons and Menu bars - in order to navigate according to the information shown on that page. "I like clean webpages"!
+				<br>
+				<br>
+				L: - Structure and Quality - If the website has good content and is layed out to help visablity then I know that it is a good quality and has substantial information and therefore if I needed to I would return to that website
+			</p>
+</div>
+
+
+
+<p class="quest"> Q.5 </p>
+<button class="accordion"> <div class="q"> What don't you like about websites? </div> </button>
+<div class="panel">
+	
+ 	<p class="g">
+				M: Frames and Borders - I dont dislike them. They can be okay but they must have a reason to be there and they must  be layout properly other wise they can look messy and even cause distractions. As well as ads, subscriptions and pop up boxes.
+				<br>
+				<br>
+				L: Certain Cartoons or Animations - Ads, pop ups and subcription notifications are probably the most annyoing for anyone but I would say the think I dislike the most is cartoon like drawings or animations. Not all websites have these of course and thats not to say all are bad but when looking at a website there are sometimes drawings or animations that are not relevant to the content I'm searching for. Any sometimes they are very large on the website, which makes me wonder what they are there for.
+			</p>
+</div>
+
+
+
+
+<p class="quest"> Q.6 </p>
+<button class="accordion"> <div class="q"> What is somethings you like / dislike about design? - Can be any type of design </div> </button>
+<div class="panel">
+	 
+ 		<p class="g">
+				M: Fonts - I noticed with my eyes anyway that certain font can be hard to read. Script fonts in particular. I like designs that have symmetry. I also dislike disappearing images, especiallly if they move to fast.
+				<br>
+				<br>
+				L: Colour - Vibrant colours can be very distracting on a website, however if used in a proper way it can capture your eyes on an important topic. As I said before, "there has to be a balance in order for me to return".
+			</p>
+</div>
+
+
+
+
+
+<p class="quest"> Q.7 </p>
+<button class="accordion"> <div class="q"> If the web was not available to you how would you feel? </div> </button>
+<div class="panel">
+	
+ 				<p class="g">
+				M: It saves time. You have information at your fingertips and mulitiple resorces 
+				<br>
+				<br>
+				L: We have become so dependant on the internet that we would be lost in a way without it. We would have to go back to using libraries. 
+			</p>
+</div>
+			
+
+
+			<!-- <img src="img/facingchairs.jpg" alt="two chairs facing eachother" class ="center">	 -->
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- In order to make the drop downs work  -->
+<!-- __________________________________________ -->
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+
+
+	</main>
 </body>
