@@ -26,7 +26,31 @@ p
 }
 
 
+.inter{
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.2em;
+	text-align: center;
+	margin-bottom: 0;
+	background-color: black;
+	border-radius: 10px;
+	padding: 10px;
+	color:#fcf1ef;
+	
 
+}
+
+@media (min-width: 600px) {
+.inter{
+	font-size: 1.1em;
+
+
+}
+}
+@media (min-width: 1100px) {
+.inter{
+	font-size: 17pt;
+}
+}
 
 .mic {
 	object-fit: cover;
