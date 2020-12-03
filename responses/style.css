@@ -9,820 +9,331 @@ img {
 	height: auto;
 }
 
-
-/*_______NAVIGATION BARS_________ */
-
-.navbar {
-  overflow: hidden;
-    position: relative;
-    width: 355px;
-    left: 300px;
-    height: 45px;
-    border:2px white solid;
-    margin: 10px;
-}
-
-.navbar a {
-  float: left;
-  font-size: 18px;
-  color: white;
-  text-align: center;
-  padding: 8px 8px;
-  text-decoration: none;
-  font-family: 'Prata', serif;
-  color: white;
-}
-
-.navbar a:hover, .dropbtn {
-  background-color: pink;
-  color: black;
-}
-
-.sign {
-	object-fit: cover;
-    width: 18%;
-    position: relative;	
-    left: 41%;
-}
-
+/*font-family: 'Bowlby One SC', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Spartan', sans-serif;
+font-family: 'Yeseva One', cursive;*/
 
 /*____________STANDARD BETWEEN ___________*/
 
 .navbar {
   overflow: hidden;
-    position: relative;
-    width: 355px;
-    left: 300px;
-    height: 45px;
-    border:2px white solid;
+    text-align: center;
     margin: 10px;
 }
 
 .navbar a {
-  float: left;
-  font-size: 18px;
-  color: white;
+  font-size: 13pt;
+  color: black;
   text-align: center;
-  padding: 8px 8px;
   text-decoration: none;
-  font-family: 'Prata', serif;
-  color: white;
+	padding: 25px;
+	font-family: 'Yeseva One', cursive;
+
 }
 
 .navbar a:hover, .dropbtn {
-  background-color: pink;
+  background-color: #aea67d;
   color: black;
 }
 
-.sign {
-	object-fit: cover;
-    width: 18%;
-    position: relative;	
-    left: 41%;
-}
+
 /*________________HOMEPAGE STYLES_____________________*/
 
 
 body.homepage {
 	
-	background-color:#D9D3C7;;
+	background-color: white;
 	font-family: 'Playfair Display', serif;
 	font-weight: normal;
 	line-height: 1.4;
-	font-size: 16pt;
-	margin:25px;
-	color: white;
-}
-
-.header {
-	background-color: #5C7351;
-	margin: -25px;
-	padding-top: 15px;
-}
-
-
-.da {
-	position:absolute;
-	margin: 0;
-	right: 150px;
-	text-align: center;
-	top: 1100px;
-	font-weight: 500;
-	letter-spacing: 2px;
-	font-size: 20pt;
-
-}
-
-.g {
-	position:absolute;
-	margin: 0;
-	left: 140px;
-	text-align: center;
-	top: 910px;
-	font-weight: 500;
-	letter-spacing: 2px;
-	font-size: 20pt;
-}
-
-.decal {
-	 position: absolute;
-    object-fit: cover;
-    width: 99.9%;
-    height: 1050px;
-    top: 65%;
-    left: 1px;
-}
-
-.square {
-  	height: 170px;
-    width: 170px;
-    
-    background-color: darkgrey;
-    transform: rotateZ(45deg);
-    position: absolute;
-    top: 850px;
-    left: 120px;
-    
-
-}
-
-
-
-.squar {
-  	height: 195px;
-    width: 195px;
-    background-color: darkgrey;
-    transform: rotateZ(45deg);
-    position: absolute;
-    background-color: #5C7351;
-    top: 1040px;
-    right: 120px;
-    /*opacity: 50%;*/
-
-}
-
-
-.homepage h4{
-	text-align: center;
-    position: relative;
-    margin: 0;
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
-    font-size: 14pt;
-    letter-spacing: 3px;
-    left: 35%;
-    color: black;
-    width: 400px;
-}
-
-
-.office {
-	object-fit: cover;
-	width: 100%;
-	height: 270px;
-	filter: blur(1.5px);
-}
-
-
-
-.goblet {	
-	object-fit: cover;
-	width: 350px;
-	height: 400px;
-	position: absolute;
-	top: 500px;
-	/*left: 50%;*/
-}
-
-
-
-
-.author {	
-	object-fit: cover;
-	width: 350px;
-	height: 400px;
-	position: absolute;
-	top: 1200px;
-	right: 40px;
-}
-
-
-
-
-.r1 {
-	position:absolute;
-	margin: 0;
-	right:275px;
-	top: 525px;
-	color: #5C7351;
-
-
-}
-
-p.r1 {
-	position:absolute;
-	margin: 0;
-	right: 40px;
-	top: 600px;
-	width: 500px;
-	text-align: left;
-	color: black;
-}
-
-
-a.r1 {
-	position:absolute;
-	margin: 0;
-    top: 900px;
-    right:450px;
-}
-
-
-
-
-
-
-.r2 {
-	position:absolute;
-	margin: 0;
-	left: 40px;
-	top: 1225px;
-	color: #5C7351;
-
-}
-
-p.r2 {
-	position:absolute;
-	margin: 0;
-	left: 40px;
-	top: 1300px;
-	width: 500px;
-	color: black;
-}
-
-a.r2 {
-	position:absolute;
-	margin: 0;
-	left: 40px;
-	top: 1600px;
-}
-
-
-
-
-/*FONTS 
-font-family: 'Parisienne', cursive;
-font-family: 'Playfair Display', serif;
-
-
-
-
-/*MOBILE ONLY _________________________________*/
-
-
-@media (min-width : 320px) and (max-width: 480px) {
-
-/*________________HOMEPAGE STYLES_____________________*/
-
-
-
-
-/*_______NAVIGATION BARS_________ */
-.header {
-	background-color:#D9D3C7;
-	padding: 0;
-}
-.office {
-	object-fit: cover;
-	width: 100%;
-	height: 270px;
-	filter: blur(1.5px);
-}
-
-
-.sign {
-	object-fit: cover;
-    width: 200px;
-    position: absolute;	
-    left: 25%;
-    z-index: 1;
-    top: 5%;
-    padding: 10px;
-}
-
-
-.homepage h4{
-	text-align: center;
-    position: absolute;
-    margin: 0;
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
-    font-size: 16pt;
-    letter-spacing: 3px;
-    color: white;
-    left:5%;
-    width: 90%;
-    top: 12%;
-    z-index: 1;
-    background-color: black;
-}
-
-.navbar {
-  	overflow: hidden;
-    position: absolute;
-    width: 95%;
-    height: 30px;
-    border:2px white solid;
-    z-index: 1;
-    top: 23%;
-    left: 1px;
-    background-color: #5C7351;
-}
-
-.navbar a {
-  float: left;
-  font-size: 12px;
-  color: white;
-  text-align: center;
-  padding: 5px 13px;
-  text-decoration: none;
-  font-family: 'Prata', serif;
-  color: white;
-}
-
-.navbar a:hover, .dropbtn {
-  background-color: pink;
-  color: black;
-}
-
-
-
-body.homepage {
-	
-	background-color:#D9D3C7;
-	font-family: 'Playfair Display', serif;
-	font-weight: normal;
-	line-height: 1.4;
-	margin:15px;
-}
-
-.header {
-	margin: 0px;
-	margin-top: -15px;
-}
-
-
-
-.decal {
-	 position: absolute;
-    object-fit: cover;
-     height: 720px;
-     margin: 0;
-    top: 400px;
-    width: 99.8%;
-}
-
-
-
-.goblet {	
-	object-fit: cover;
-    height: 300px;
-    position: absolute;
-    top: 300px;
-    width: 200px;
-}
-
-
-
-.square {
-  	height: 100px;
-    width: 100px;
-    background-color: darkgrey;
-    transform: rotateZ(45deg);
-    position: absolute;
-    top: 550px;
-    left: 120px;
-    
-
-}
-
-.g {
-	position:absolute;
-	margin: 0;
-	left: 120px;
-	text-align: center;
-	top: 580px;
-	font-weight: 500;
-	letter-spacing: 2px;
-	font-size: 15pt;
-}
-
-
-
-.r1 {
-	position:absolute;
-	margin: 0;
-	right:15px;
-	top: 300px;
-	color: #5C7351;
-	font-size: 18pt;
-
-
-}
-
-p.r1 {
-	position:absolute;
-	margin: 0;
-	right: 15px;
-	top: 350px;
-	width: 500px;
-	text-align: left;
-	color: black;
-	width: 230px;
-	color: black;
-	font-size: 10pt;
-}
-
-
-a.r1 {
-	position:absolute;
-	margin: 0;
-    top: 600px;
-    right:15px;
-    font-size: 14pt;
-}
-
-
-
-
-
-
-.author {	
-	object-fit: cover;
-	height: 300px;
-	position: absolute;
-	top: 700px;
-	right: 15px;
-	width: 200px;
-}
-
-
-
-
-
-
-.da {
-	position:absolute;
-	margin: 0;
-	text-align: center;
-	font-weight: 500;
-	letter-spacing: 2px;
-	font-size: 15pt;
-	top: 880px;
-	right: 155px;
-}
-
-
-
-.squar {
-    height: 100px;
-    width: 100px;
-    background-color: #5C7351;
-    transform: rotateZ(45deg);
-    position: absolute;
-    top: 850px;
-    right: 160px;
-
-}
-
-
-.r2 {
-	position:absolute;
-	margin: 0;
-	left: 15px;
-	top: 700px;
-	color: #5C7351;
-	font-size: 18pt;
-}
-
-p.r2 {
-	position:absolute;
-	margin: 0;
-	left: 15px;
-	top: 750px;
-	width: 200px;
-	color: black;
-	font-size: 10pt;
-}
-
-a.r2 {
-	position:absolute;
-	margin: 0;
-	left: 15px;
-	top: 1040px;
 	font-size: 14pt;
-}
-
-
-
+	color: black;
 
 }
 
-
-
-/* Desktops and laptops ----------- */
-@media (min-width : 1224px) {
-
-/*________________HOMEPAGE STYLES_____________________*/
-
-
-
-/*_______NAVIGATION BARS_________ */
-
-.navbar {
-  overflow: hidden;
-    position: relative;
-    width: 98%;
-    left: 5px;
-    height: 45px;
-    border:2px white solid;
-    margin: 10px;
-}
-
-.navbar a {
-  float: left;
-  font-size: 20px;
-  color: white;
-  text-align: center;
-  padding: 8px 110px;
-  text-decoration: none;
-  font-family: 'Prata', serif;
-  color: white;
-}
-
-.navbar a:hover, .dropbtn {
-  background-color: pink;
-  color: black;
-}
-
-.sign {
+.office {
 	object-fit: cover;
-    width: 18%;
-    position: relative;	
-    left: 41%;
+	width: 100%;
+	height: 250px;
+	opacity: 65%;
+
 }
 
 
 
-body.homepage {
-	
-	background-color:#D9D3C7;;
-	font-family: 'Playfair Display', serif;
-	font-weight: normal;
-	line-height: 1.4;
-	font-size: 16pt;
-	margin:25px;
-	color: white;
+.homepage h1 {
+	font-family: 'Nothing You Could Do', cursive;
+		text-align: center;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+	font-size: 35pt;
+	color: #1f392d;
+}
+.homepage h3{
+	text-align: center;
+font-family: 'Nothing You Could Do', cursive;
+    font-weight: 500;
+    font-size: 24pt;
+    color: black;
+    position: absolute;
+    top: 170px;
+    right: 100px;
+    border: solid 2px #1f392d;
+    padding: 10px 15px;
+    width: 450px;
+    height: 220px;
+    margin: 0;
+    background-color: #ffffff70;
+
+}
+.green {
+	border-color: #1f392d;
+	position: relative;
+	margin: 0;
 }
 
-.header {
-	background-color: #5C7351;
-	margin: -25px;
-	padding-top: 15px;
+.q1 {
+	font-size: 13pt;
+	position: relative;
 }
 
+
+
+.homepage h4{
+	text-align: center;
+    margin: 0;
+font-family: 'Nothing You Could Do', cursive;
+    font-weight: 500;
+    font-size: 18pt;
+    color: black;
+    position: absolute;
+    top: 45px;
+    left: 25px;
+}
+
+div.polaroid {
+	padding: 10px;
+	background-color: #1f392d;
+	margin: 10px;
+
+}
+
+div.container {
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+}
+
+
+
+div.grid {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	background-image: url("img/plant.jpg");
+	padding: 80px;
+	background-size: 1600px 1000px;
+	background-repeat: no-repeat;
+
+
+}
 
 
 .goblet {	
 	object-fit: cover;
 	width: 350px;
-	height: 400px;
-	position: absolute;
-	top: 55%;
-	left: 60px;
+	height: 350px;
+
 }
-
-
 
 
 .author {	
 	object-fit: cover;
 	width: 350px;
-	height: 400px;
+	height: 350px;
+}
+
+
+
+.link {
+	border: solid 2pt white;
+	text-decoration: none;
+	padding: 8px 65px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.link:hover {
+	background-color:#aea67d;
+	color: black;
+
+}
+
+
+
+/*--------CRYSTAL GOBLET -------------*/
+
+
+body.cg {
+	background: black;
+	color: white;
+}
+
+
+.cg h1{
+	text-align: center;
 	position: absolute;
-	top: 1200px;
-	right: 60px;
+	top: 100px;
+	left: 125px;
+	color: white;
+	font-family: 'Yeseva One', cursive;
+	font-size: 65pt;
+	letter-spacing: 3px;
+  	background-color: transparent;
+  	border: grey 2px solid;
+  	padding: 25px 40px;
+
+
 }
 
-
-
-.da {
-	position:absolute;
+.cg h2{
+	text-align: center;
+	color: white;
+	font-family: 'Spartan', sans-serif;
+	font-weight: 200;
 	margin: 0;
-	right: 150px;
-	text-align: center;
-	top: 1100px;
-	font-weight: 500;
-	letter-spacing: 2px;
-	font-size: 20pt;
-
+	font-size: 15pt;
 }
 
-.g {
-	position:absolute;
-	margin: 0;
-	left: 140px;
-	text-align: center;
-	top: 910px;
-	font-weight: 500;
-	letter-spacing: 2px;
-	font-size: 20pt;
-}
-
-.decal {
-	 position: absolute;
-    object-fit: cover;
-    width: 99.9%;
-    height: 1100px;
-    top: 65%;
-    left: 1px;
-}
-
-.square {
-  	height: 170px;
-    width: 170px;
-    
-    background-color: darkgrey;
-    transform: rotateZ(45deg);
-    position: absolute;
-    top: 850px;
-    left: 120px;
-    
-
+.a {
+	transform: rotateZ(90deg);
+		position: absolute;
+		left: -20px;
+		top: 100px;
 }
 
 
 
-.squar {
-  	height: 195px;
-    width: 195px;
-    background-color: darkgrey;
-    transform: rotateZ(45deg);
-    position: absolute;
-    background-color: #5C7351;
-    top: 1040px;
-    right: 120px;
-    /*opacity: 50%;*/
+.b {
+	transform: rotateZ(-90deg);
+		position: absolute;
+		right: -50px;
+		top: 300px;
 
 }
 
-
-.homepage h4{
-	text-align: center;
-    position: relative;
-    margin: 0;
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
-    font-size: 14pt;
-    letter-spacing: 3px;
-    left: 35%;
-    color: black;
-    width: 400px;
-}
-
-
-.office {
+.leafs {
 	object-fit: cover;
 	width: 100%;
-	height: 270px;
-	filter: blur(1.5px);
+	height: 450px;
+	opacity: 95%;
 }
 
-
-
-
-
-
-
-
-.r1 {
-	position:absolute;
-	margin: 0;
-	right: 570px;
-	top: 525px;
-	color: #5C7351;
-
-
-}
-
-p.r1 {
-	position:absolute;
-	margin: 0;
-	right: 40px;
-	top: 600px;
-	width: 800px;
-	text-align: left;
-	color: black;
-}
-
-
-a.r1 {
-	position:absolute;
-	margin: 0;
-    top: 800px;
-    right:750px;
-    color: white;
-}
-
-
-
-
-
-
-.r2 {
-	position:absolute;
-	margin: 0;
-	left: 5%;
-	top: 1225px;
-	color: #5C7351;
-
-}
-
-p.r2 {
-	position:absolute;
-	margin: 0;
-	left: 5%;
-	top: 1300px;
-	width: 800px;
-	color: black;
-}
-
-a.r2 {
-	position:absolute;
-	margin: 0;
-	left: 5%;
-	top: 1500px;
-}
-
+.grey {
+	border: #3E3E3B solid; 
 
 }
 
 
-
-
-
-/*
-#73020C#BF8F73#D9B19A#262626#0D0D0D
-
-#D9D3C7#F28D77#F2786D#262626#0D0D0D
-
-#32402C#5C7351#90A686#735943#0D0D0D
-
-#F2C094#F2AF88#A67D65#592816#D9D9D9
-
-#5c5d61;#928e93;#7495ae#557a95;#b0a295;*/
-
-/*--------CRYTAL GOBLET -------------*/
-
-/*.header {
-
-	display: grid;
-	grid-template-columns: 33.33% 33.33% 33.33%
-}*/
-
-
-/*.top {
-
-	display: grid;
-	grid-template-columns: 50% 50%;
-}
-
-
-.side {
-
-}
-
-
-
-
-
-.crystalgob h1{
+.cg h3 {
+	color: grey;
+	opacity: 8%;
+	font-family: 'Yeseva One', cursive;
+	font-size: 105pt;
 	text-align: center;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 100px;
+	top: 800px;
+
+
+}
+.grid2 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	padding: 20px;
+
+}
+
+.cg p {
+	margin: 35px;
+}
+
+.glass {
+	object-fit: cover;
+	width: 100%;
+	height: 450px;
+	width: 450px;
+	border: 3px white solid;
 }
 
 
-.crystalgob h2{
-	text-align: center;
+
+
+
+
+
+
+
+.circle1 {
+  height: 40px;
+  width: 300px;
+  background-color: #394832;
+  position: absolute;
+  top: 325px;
+  left: 120px;
+  text-align: center;
+  padding: 5px;
+
 }
 
+.circle2 {
+height: 40px;
+  width: 300px;
+  background-color: #0d1214;
+  position: absolute;
+  left: 450px;
+     top: 325px;
+     text-align: center;
+     padding: 5px;
 
-
-.circle {
-  height: 50px;
-  width: 50px;
-  background-color: #555;
-  border-radius: 50%;
 }
+
+.circle3 {
+  height: 40px;
+  width: 300px;
+  background-color: #394832;
+  position: absolute;
+  right: 120px;
+    top: 325px;
+    text-align: center;
+    padding: 5px;
+
+}
+.cg a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Spartan', sans-serif;
+	font-weight: 200;
+	margin: 5px;
+	position: relative;
+	top: 7px;
+}
+.cg a:hover {
+	font-size: 14pt;
+
+}
+
+/*#c5b3cf;
+#cfbac1;
+
+#aa97ab;
+
+#524d68;
+
 */
 
 
@@ -832,25 +343,110 @@ a.r2 {
 
 
 
+/*----------DESIGNER AS AUTHOR--------- */
+
+
+/*
+#628574
+#466656;
+#284837;
+#1e3524;
+*/
+
+body.daa {
+	background-color:white;
+}
+
+.header3 {
+	text-align: left;
+	padding: 25px;
+	background-color:#aea67d;
+	height: 200px;
+}
+
+.daa h1 {
+	font-family: 'Yeseva One', cursive;
+	letter-spacing: 3px;
+}
+
+
+
+.daa h2 {
+
+}
+
+
+
+.grid4 {
+	display: grid;
+	grid-template-columns: 65% 35%;
+}
+
+.topi {
+	padding-left: 25px;
+	
+}
+
+.topics {
+	font-family: 'Nothing You Could Do', cursive;
+	background-color: whitesmoke;
+	width: 500px;
+	padding: 8px;
+	font-size: 16pt;
+	margin: 25px;
+}
+
+.rectangle {
+	border: solid 1px black;
+	width: 500px;
+	height: 250px;
+	position: absolute;
+	top: 270px;
+	left: 50px;
+}
+
+.quote {
+	font-family: 'Nothing You Could Do', cursive;
+	background-color: whitesmoke;
+	font-size: 16pt;
+	width: 450px;
+	margin: 50px;
+	padding: 25px;
+}
+
+.rectangle2 {
+	border: solid 1px black;
+	width: 450px;
+	height: 160px;
+	top: 1015px;
+	left: 50px;
+	position: absolute;
+}
+
+
+.p2  {
+	width: 550px;
+	margin-left: 20px;
+}
+
+
+
+.p4  {
+	width: 550px;
+	margin-left: 20px;
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.p1  {
+	width: 300px;
+	margin-right: 20px;
+	margin-top:15px;
+}
+.p3  {
+	object-fit: cover;
+	width: 300px;
+	margin-right: 20px;
+	height: 275px;
+}
