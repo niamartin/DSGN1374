@@ -191,15 +191,16 @@ body.cg {
 	text-align: center;
     position: absolute;
     top: 40px;
-    left: 31px;
+    left: 65px;
     color: white;
     font-family: 'Yeseva One', cursive;
     font-size: 25pt;
     letter-spacing: 3px;
     background-color: transparent;
     border: grey 2px solid;
-    padding: 6px 10px;
-
+    padding: 10px 15px;
+    width: 260px;
+    margin: 0;
 
 }
 
@@ -289,9 +290,8 @@ body.cg {
 
 #choose {
   position: relative;
-    height: 281px;
-    width: 423px;
-    margin: 0 auto;
+  height: 190px;
+    margin-left: 35px;
 }
 
 #choose img {
@@ -330,7 +330,7 @@ opacity:0;
 .cg p  {
 	position: relative;
 	font-family: 'Yeseva One', cursive;
-	font-size: 48pt;
+	font-size: 40pt;
 	-webkit-text-stroke: white .3px  ;
 	color: black;
 	animation-timing-function: linear;
@@ -364,8 +364,8 @@ opacity:0;
     width: 190px;
     background-color: #394832;
     position: absolute;
-    top: 192px;
-    left: 118px;
+    top: 212px;
+    left: 105px;
     text-align: center;
     padding: 3px;
 
@@ -374,10 +374,10 @@ opacity:0;
 .circle2 {
  height: 40px;
     width: 190px;
-      top: 145px;
+      top: 165px;
     background-color: #394832;
     position: absolute;
-        left: 118px;
+        left: 105px;
     text-align: center;
     padding: 3px;
 
@@ -388,8 +388,8 @@ opacity:0;
     width: 190px;
     background-color: #394832;
     position: absolute;
-    top: 240px;
-    left: 118px;
+    top: 260px;
+    left: 105px;
     text-align: center;
     padding: 3px;
 
