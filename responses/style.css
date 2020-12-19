@@ -121,10 +121,9 @@ div.polaroid {
 
 }
 
-div.container {
+.container {
   text-align: center;
   color: white;
-  letter-spacing: 2px;
 }
 
 
@@ -232,7 +231,9 @@ div.grid {
     top: 2vh;
     left: 4vw;
 }
-
+div .container {
+   letter-spacing: 2px;
+}
 
 div.grid {
   grid-template-columns: 40% 40%;
@@ -349,6 +350,24 @@ body.cg {
 	font-size: 12pt;
 }
 
+.cg h5 {
+  font-size: 15pt;
+  text-align: center;
+  margin: 5px;
+  color: transparent;
+  -webkit-text-stroke: #394832 .2px;
+  animation: 6s linear infinite headings;
+  overflow: hidden;
+}
+
+
+@keyframes headings {
+  0% {color: white}
+  25% { color: #394832; }
+  50% { color: #394832;}
+  100% { color: white;}
+}
+
 .a {
 	transform: rotateZ(90deg);
     position: absolute;
@@ -391,13 +410,6 @@ body.cg {
 }
 
 
-
-.container
-{
-	display: flex;
-	flex-wrap: none;
-	justify-content: center;
-}
 .cho {
 	color: grey;
     font-family: 'Yeseva One', cursive;
