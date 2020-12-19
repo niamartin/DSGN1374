@@ -14,21 +14,24 @@ font-family: 'Nothing You Could Do', cursive;
 font-family: 'Spartan', sans-serif;
 font-family: 'Yeseva One', cursive;*/
 
-/*____________STANDARD BETWEEN ___________*/
+
+/*________________HOMEPAGE STYLES_____________________*/
 
 .navbar {
+  display: grid;
+  grid-template-columns: 20% 35% 25% 20%;
   overflow: hidden;
-    text-align: center;
-    margin: 10px;
+  justify-content: center;
+    margin: 5px;
 }
 
 .navbar a {
-  font-size: 13pt;
+  font-size: 10pt;
   color: black;
   text-align: center;
   text-decoration: none;
-	padding: 25px;
-	font-family: 'Yeseva One', cursive;
+  padding: 3px;
+  font-family: 'Yeseva One', cursive;
 
 }
 
@@ -36,9 +39,6 @@ font-family: 'Yeseva One', cursive;*/
   background-color: #aea67d;
   color: black;
 }
-
-
-/*________________HOMEPAGE STYLES_____________________*/
 
 
 body.homepage {
@@ -61,7 +61,7 @@ body.homepage {
 .office {
 	object-fit: cover;
 	width: 100%;
-	height: 250px;
+	height: 300px;
 	opacity: 65%;
 
 }
@@ -71,24 +71,24 @@ body.homepage {
 .homepage h1 {
 	font-family: 'Yeseva One', cursive;
 		text-align: center;
-	margin-bottom: 20px;
+	margin: 0;
 	letter-spacing: 3px;
-	font-size: 35pt;
+	font-size: 25pt;
 	color: #1f392d;
 }
 .homepage h3{
 	text-align: center;
 font-family: 'Nothing You Could Do', cursive;
     font-weight: 500;
-    font-size: 24pt;
+    font-size: 12pt;
     color: black;
     position: absolute;
-    top: 170px;
-    right: 100px;
+    top: 140px;
+    right: 10px;
     border: solid 2px #1f392d;
-    padding: 10px 15px;
-    width: 450px;
-    height: 220px;
+    padding: 5px 5px;
+    width: 215px;
+    height: 245px;
     margin: 0;
     background-color: #ffffff70;
 
@@ -96,26 +96,24 @@ font-family: 'Nothing You Could Do', cursive;
 .green {
 	border-color: #1f392d;
 	position: relative;
-	margin: 0;
+	margin:0;
 }
 
 .q1 {
-	font-size: 13pt;
 	position: relative;
+  margin: 5px;
+  line-height: 1.3em;
 }
 
 
 
 .homepage h4{
 	text-align: center;
-    margin: 0;
 font-family: 'Nothing You Could Do', cursive;
     font-weight: 500;
-    font-size: 18pt;
+    font-size: 12pt;
     color: black;
-    position: absolute;
-    top: 45px;
-    left: 25px;
+    margin: 0;
 }
 
 div.polaroid {
@@ -134,11 +132,10 @@ div.container {
 
 
 div.grid {
-	display: flex;
-	flex-wrap: nowrap;
+	display: grid;
 	justify-content: space-evenly;
 	background-image: url("img/plant.jpg");
-	padding: 80px;
+	padding: 10px;
 	background-size: 1600px 1000px;
 	background-repeat: no-repeat;
 
@@ -148,16 +145,16 @@ div.grid {
 
 .goblet {	
 	object-fit: cover;
-	width: 350px;
-	height: 350px;
+	width: 250px;
+	height: 250px;
 
 }
 
 
 .webs {	
 	object-fit: cover;
-	width: 350px;
-	height: 350px;
+	width: 250px;
+	height: 250px;
 }
 
 
@@ -165,7 +162,7 @@ div.grid {
 .link {
 	border: solid 2pt white;
 	text-decoration: none;
-	padding: 8px 65px;
+	padding: 8px 55px;
 	color: white;
 	letter-spacing: 2px;
 }
@@ -177,7 +174,143 @@ div.grid {
 }
 
 
+@media (min-width: 600px) {
 
+body.homepage {
+  
+  background-color: white;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  line-height: 1.4;
+  font-size: 14pt;
+  color: black;
+
+}
+
+
+.homepage p {
+  font-size: 12pt;
+  border-right: 0px;
+}
+
+.office {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  opacity: 65%;
+
+}
+
+
+
+.homepage h1 {
+  font-family: 'Yeseva One', cursive;
+    text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  font-size: 35pt;
+  color: #1f392d;
+}
+.homepage h3{
+  text-align: center;
+font-family: 'Nothing You Could Do', cursive;
+    font-weight: 500;
+    font-size: 24pt;
+    color: black;
+    position: absolute;
+    top: 170px;
+    right: 100px;
+    border: solid 2px #1f392d;
+    padding: 10px 15px;
+    width: 450px;
+    height: 220px;
+    margin: 0;
+    background-color: #ffffff70;
+
+}
+.green {
+  border-color: #1f392d;
+  position: relative;
+  margin: 0;
+}
+
+.q1 {
+  font-size: 13pt;
+  position: relative;
+}
+
+
+
+.homepage h4{
+  text-align: center;
+    margin: 0;
+font-family: 'Nothing You Could Do', cursive;
+    font-weight: 500;
+    font-size: 18pt;
+    color: black;
+    position: absolute;
+    top: 45px;
+    left: 25px;
+}
+
+div.polaroid {
+  padding: 10px;
+  background-color: #1f392d;
+  margin: 10px;
+
+}
+
+div.container {
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+}
+
+
+
+div.grid {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  background-image: url("img/plant.jpg");
+  padding: 80px;
+  background-size: 1600px 1000px;
+  background-repeat: no-repeat;
+
+
+}
+
+
+.goblet { 
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+
+}
+
+
+.webs { 
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+}
+
+
+
+.link {
+  border: solid 2pt white;
+  text-decoration: none;
+  padding: 8px 65px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.link:hover {
+  background-color:#aea67d;
+  color: black;
+
+}
+}
 /*--------CRYSTAL GOBLET -------------*/
 
 
@@ -658,16 +791,18 @@ body.was {
 
 
 .navi  {
-	margin: 12px 0;
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  margin: 12px 0;
 	border: solid .5pt whitesmoke;
-	padding: 10px;
+	padding: 5px;
 	text-align: center;
+
 }
 .navi a {
 	color: white;
 	text-decoration: none;
-	font-family: 
-	font-size: 12pt;
+	font-size: 10pt;
 
 }
 .header3 {
@@ -732,19 +867,19 @@ body.was {
 .quest {
 	position: relative;
 	top:-314px;
-	left: 75px;
+	left: 115px;
 	font-size: 14pt;
 	text-align: center;
 	z-index: 1;
 	color: white;
-	width: 300px;
+	width: 200px;
 	font-family: 'Nothing You Could Do', cursive;
 }
 
 .quest2 {
 	position: relative;
 	width: 300px;
-	left: 65px;
+	left: 45px;
 	padding: 10px;
 	font-size: 15pt;
 	margin: 0px;
@@ -797,7 +932,7 @@ body.was {
 
 .grid6 {
 	display: grid;
-	grid-template-columns: 20% 20% 20% 20%20%;
+	grid-template-columns: 19% 19% 19% 19% 19%;
 	grid-column-gap: 5px;
 	margin-bottom: 20px;
 }
@@ -848,7 +983,7 @@ body.was {
 	position: relative;
 	top: -60px;
 	width: 350px;
-	left: 55px;
+	left: 10px;
 	padding: 10px;
 	font-size: 20pt;
 	margin: 0px;
@@ -863,9 +998,9 @@ body.was {
 
 .quest4 {
 	position: absolute;
-	left: 46%;
+	left: 50%;
 	right: 50%;
-	top: 1050px;
+	top: 1075px;
 	height: 525px;
 	font-size: 30pt;
 	color:#d9ccc1; 
@@ -1135,7 +1270,7 @@ color: #434952;
 	letter-spacing: 2px;
 	font-family:'Spartan', sans-serif;
 	color:#8eb8cf;
-	padding: 0 140px;
+	padding: 0 110px;
 
 }
 
